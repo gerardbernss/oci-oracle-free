@@ -32,7 +32,7 @@ ARG BUILD_MODE
 
 ENV ORACLE_BASE=/opt/oracle \
     ORACLE_HOME=/opt/oracle/product/19c/dbhome_1 \
-    INSTALL_DIR=/opt/install \
+    INSTALL_DIR=/opt/oracle \
     INSTALL_FILE_1=$INSTALL_FILE_1 \
     INSTALL_RSP="db_inst.rsp" \
     CONFIG_RSP="dbca.rsp.tmpl" \
@@ -88,7 +88,7 @@ ENV ORACLE_BASE=/opt/oracle \
     ORACLE_BASE_CONFIG=/opt/oracle/product/19c/dbhome_1 \
     ORACLE_BASE_HOME=/opt/oracle/product/19c/dbhome_1 \
     ORACLE_HOME=/opt/oracle/product/19c/dbhome_1 \
-    INSTALL_DIR=/opt/install \
+    INSTALL_DIR=/opt/oracle \
     INSTALL_FILE_1=$INSTALL_FILE_1 \
     INSTALL_RSP="db_inst.rsp" \
     CONFIG_RSP="dbca.rsp.tmpl" \
